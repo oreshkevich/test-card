@@ -1,0 +1,80 @@
+.form {
+  position: relative;
+  margin-top: rem(50);
+  text-align: center;
+}
+
+.form__search {
+  width: 100%;
+  // width: 1000px;
+  height: 50px;
+  padding: 5px 47px;
+  margin: 0;
+  border-radius: 2px;
+  border: 1px solid #278d9f;
+  font-size: 18px;
+  backdrop-filter: blur(6px);
+}
+
+.form input:hover,
+.form input:focus,
+.form input:active {
+  border: 1px solid #ced4da;
+  outline: none;
+}
+
+.form input {
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form__btn {
+  position: absolute;
+  top: 10px;
+  right: 17px;
+  margin-left: 5px;
+}
+
+.card__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 36px;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  /* background-image: url(../src/assets/toys/2.png); */
+}
+
+.card {
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: center;
+  min-width: 321px;
+  max-width: 341px;
+  padding: 0;
+  border: 1px solid #8c8d8d;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 20px 23px 35px;
+}
+.card__container {
+  // max-width: 900px;
+  // width: 100%;
+  margin: 50px auto;
+  padding: 0 15px;
+}
+.card {
+}
+.card__title {
+}
+.card__description {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.card__img {
+}
+.card__text {
+  padding-left: 5px;
+}
